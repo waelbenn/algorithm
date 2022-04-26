@@ -1,0 +1,29 @@
+ALGORITHM algorithm_name
+VAR
+    c:CHAR
+    str:STRING[]
+    vowels:INTEGER:=0
+    space:INTEGER:=0
+    caracters:INTEGER:=0
+BEGIN
+REPEAT
+   write('write a caracter : ')
+    read (c)
+    IF (c in [a,e,i,u,y,o,A,E,I,U,Y,O]) THEN
+        vowels:=vowels+1
+
+    END_IF
+    IF 
+IF (C=" ") THEN
+        space:=space+1
+ELSE
+    caracters:=caracters+1
+END_IF
+concat(str,c)
+
+UNTIL (c='.')
+ write('sentence is:',str)
+ write('number of words is:',space+1) 
+ write('number of caracters:',caracters)
+ write('number of vowels:',vowels)
+END
